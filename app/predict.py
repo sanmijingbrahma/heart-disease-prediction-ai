@@ -1,7 +1,7 @@
 import joblib
 import pandas as pd
 
-MODEL_PATH = "../models/random_forest_best.pkl"
+MODEL_PATH = "./models/random_forest_best.pkl"
 
 model = joblib.load(MODEL_PATH)
 
