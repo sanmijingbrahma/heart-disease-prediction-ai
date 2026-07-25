@@ -1,15 +1,31 @@
-# Heart Disease Prediction
+# ❤️ Heart Disease Risk Prediction
 
-## Objective
-- Prediction of Low or High risk of Heart Disease
+## Overview
 
+This project predicts the likelihood of heart disease using a Random Forest machine learning model trained on the Cleveland Heart Disease dataset.
 
-## Tech Stack 
-- Python 
-- Pandas 
-- NumPy
+## Features
+
+- Interactive Streamlit web application
+- Real-time predictions
+- Probability score
+- Input validation
+- Model interpretability analysis
+
+## Tech Stack
+
+- Python
+- Pandas
 - Scikit-learn
-- Matplotlib
-- Plotly 
 - Streamlit
+- Joblib
 
+## Model
+
+Random Forest Classifier
+
+## How to Run
+
+pip install -r requirements.txt
+
+streamlit run app/app.py
